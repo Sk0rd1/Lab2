@@ -68,6 +68,7 @@ int main()
 	Cylinder a(2, 3);
 	Cylinder b(3, 4);
 	Cylinder c = frnd(a, b);
+	Cylinder d = frnd(a, b);
 	a.print_val();
 	c.print_val();
 }
