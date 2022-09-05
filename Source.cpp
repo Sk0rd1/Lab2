@@ -10,7 +10,7 @@ class Cylinder
 		Cylinder(double, double);
 		~Cylinder();
 		void print_val();
-		friend Cylinder frnd(Cylinder ob1, Cylinder ob2);
+		friend Cylinder frnd(Cylinder, Cylinder);
 		void setRadius(double);
 		void setHeight(double);
 		void setVolume(double);
